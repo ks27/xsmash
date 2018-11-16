@@ -47,6 +47,6 @@ $ python2 xsmash.py
 <h4><center>I Make This Tool For Hacking The Noobies Hikirz(For Me The Scriptkiddies Who Want To Learn About Fbhack)
 <br>So Im Not Responsible For Any illegal Activities<br>Smash Utlra Plus =~ Anime Boku No Hero (TnAnimeFun) <br><b>(c) 2018 - Zack_Ad</b><br>
 </center></h4>
-**Screen :)**
-----------
+
+# Screen :)
 <img src='https://raw.githubusercontent.com/m4rktn/xsmash/master/screen.png'>
