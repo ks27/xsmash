@@ -31,7 +31,7 @@ $ apt-get install python2 git
 $ git clone https://github.com/m4rktn/xsmash && cd xsmash
 $ python2 xsmash.py
 ```
-##For Windows
+*For Windows*
 ```
 1) Install Python2.7 From https://www.python.org/downloads/
 2) Go To https://github.com/m4rktn/xsmash And Download In ".zip" Format
