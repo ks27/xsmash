@@ -1,4 +1,5 @@
-#X-Smash FBHackBox
+# X-Smash FBHackBox
+
 **What's It ?**
 ----------
 
@@ -19,13 +20,13 @@ X-Smash Is a Priv8 Facebook Hack Tool ...
 ```
 **Install**
 ----------
-##For Debien Based Systems 
+*For Debien Based Systems*
 ```
 $ sudo apt-get install git
 $ git clone https://github.com/m4rktn/xsmash && cd xsmash
 $ python2 xsmash.py
 ```
-##For Termux
+*For Termux*
 ```
 $ apt-get install python2 git
 $ git clone https://github.com/m4rktn/xsmash && cd xsmash
