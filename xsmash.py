@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # encoding: utf-8
-###################### Ova #######################
+#######  Ova  #######
 #read trikz.txt (link ..)
 #<raw.github.com/m4rktn/master/xsmash/trikz.txt>
-#       X-smash ~ Priv8 FBHackBox ~
+#######    Xsmash ~ Priv8 FBHackBox ~   #######
 ####### Hentai Started..Thnx 4 Watching #######
 
 import string
@@ -140,7 +140,7 @@ def medoria():
     fade= '5'+tn0 
     waw = open("xrzlts/tnorang.txt", 'a')
     waw.write(fade+ '\n')
-   print "%s[✔] xrzlts/saved in tnorang.txt ! %s"%(la5dhar,labyadh)
+   print "%s[✔] saved in xrzlts/tnorang.txt ! %s"%(la5dhar,labyadh)
 
   except : 
        pass
@@ -170,9 +170,6 @@ def medoria():
        pass
  elif ztn=='666':
   lol()
- else:
-     print "%s Yari Yari :/ %s"%(la5dhar,labyadh)
-     exit()
  
 def toro():
 ####### Work With Info #######
@@ -287,7 +284,7 @@ def toro():
   lol()
  else:
   exit()
-#########################
+############################
 class InstaBrute(object):
   ## This Pizza By 04x - Thnx Dude Yummy ##
     def __init__(self):
@@ -386,7 +383,7 @@ def uraraka():
   tebassa = string.ascii_letters + string.digits + '!@#$%^&*()_<>'
   tebayo  = ''.join(choice(tebassa) for n in range(10)) #change 10 for any number xD
   print "%s[%s+%s] Secure Password : %s%s"%(la7mar,la5dhar,la7mar,lazra9,tebayo)
-##########Sauce : OSIF TOOL (Thnx DuDe##########
+####### Sauce : OSIF TOOL (Thnx DuDe) #######
 def get():
    global a ,token,name
    os.system('clear')
@@ -676,7 +673,7 @@ def lol():
     os.system('git clone https://github.com/m4rktn/jogan && cd jogan && python2 jogan.py')
   else:
     os.system('cd jogan && python2 jogan.py')
- elif zack=='69':
+ else:
   print "%s Thnx To Eat Mlawy And Chips\n Goood Bye %s"%(la5dhar,labyadh)
   exit()
 
@@ -690,7 +687,7 @@ if __name__ == '__main__':
       pass
     lol()
   except KeyboardInterrupt:
-    print (" \nThnx To Eat Mlawy And Chips ^^ Hammmmmm ")
+    print "%s Thnx To Eat Mlawy And Chips\n Goood Bye %s"%(la5dhar,labyadh)
 sys.exit()
 ###  ShowTime  ### 
 #   ___   ___    #
