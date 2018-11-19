@@ -45,7 +45,7 @@ def clear():
   else:
     os.system('clear')
 #For update Reason ..plz Dont change it
-update_jogan="versionxfx3" 
+update_jogan="ver0x01" 
 zz=requests.get('https://raw.githubusercontent.com/m4rktn/xsmash/master/xsmash.py')
 if update_jogan not in zz.text.encode('utf-8'):
   print "{y}Notification {r}! {y}New Version Of {re}X{g}smash \n{y}Do You Want To Get Update RightNow {r}?? ({y}Y{r}/{y}n{r})\033[00m".format(r=la7mar,g=la5dhar,y=la7mar,re=ramadi)
