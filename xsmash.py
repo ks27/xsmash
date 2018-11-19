@@ -47,9 +47,18 @@ def clear():
 #For update Reason ..plz Dont change it
 update_jogan="versionxfx3" 
 zz=requests.get('https://raw.githubusercontent.com/m4rktn/xsmash/master/xsmash.py')
-if update_jogan != zz['update_jogan']:
-  print "Do You Want To Get Update RightNow ?? (Y/n)"
-  
+if update_jogan not in zz.text.encode('utf-8'):
+  print "{y}Notification {r}! {y}New Version Of {re}X{g}smash \n{y}Do You Want To Get Update RightNow {r}?? ({y}Y{r}/{y}n{r})\033[00m".format(r=la7mar,g=la5dhar,y=la7mar,re=ramadi)
+  tfq=raw_input("%ssmash> %s"%(ramadi,lazra9))
+  if tfq.upper() in ['Y','YES','OUI','SI','AY','EY','JA']: #i will Add All Words Mean Yes In Our Planet -_-
+   if os.name!='nt':
+    try:
+     os.system('git clone https://github.com/m4rktn/xsmash')
+    except:
+      os.system('apt-get install git')
+   else:
+      print "%s#> Install This Tool Wa7dk -_- \nlink> https://github.com/m4rktn/xsmash"%la7mar
+
 #
 #######      LogoS        #######
 logooo=""" {g} I Wanna Be Hero n° 1{y} Allmighto {r}!!
