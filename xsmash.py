@@ -29,7 +29,7 @@ labyadh = '\033[00m'
 try: 
  import requests
 except:
-  print"%s[%s?%s] Installing requests Module%s"%(la7mar,la5dhar,la7mar,la5dhar,labyadh)
+  print"%s[%s?%s] Installing requests Module%s"%(la7mar,la5dhar,la7mar,labyadh)
   if os.name=='nt':
     try:
       os.system('cd:\Python27\Scripts\pip2.exe install requests')
