@@ -52,10 +52,7 @@ if update_jogan not in zz.text.encode('utf-8'):
   tfq=raw_input("%ssmash> %s"%(ramadi,lazra9))
   if tfq.upper() in ['Y','YES','OUI','SI','AY','EY','JA']: #i will Add All Words Mean Yes In Our Planet -_-
    if os.name!='nt':
-    try:
-     os.system('git clone https://github.com/m4rktn/xsmash')
-    except:
-      os.system('apt-get install git')
+     os.system('wget https://raw.githubusercontent.com/m4rktn/xsmash/master/xsmash.py -O xsmash.py')
    else:
       print "%s#> Install This Tool Wa7dk -_- \nlink> https://github.com/m4rktn/xsmash"%la7mar
 
