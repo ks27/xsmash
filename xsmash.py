@@ -44,7 +44,13 @@ def clear():
     os.system('cls')
   else:
     os.system('clear')
-
+#For update Reason ..plz Dont change it
+update_jogan="version2" 
+zz=requests.get('https://raw.githubusercontent.com/m4rktn/xsmash/master/xsmash.py')
+if update_jogan != zz['update_jogan']:
+  print "Do You Want To Get Update RightNow ?? (Y/n)"
+  
+#
 #######      LogoS        #######
 logooo=""" {g} I Wanna Be Hero n° 1{y} Allmighto {r}!!
                   ~~{g}Medoriya Sama{r}~~
@@ -234,7 +240,7 @@ def toro():
    exit()
  dark = zack2+zack
  dark2= zack+zack2+'\n'+zack+mayar+'\n'+mayar+zack2+'\n'+zack+zack+'\n'+zack+zack+zack2+'\n'+zack+'@'+zack+'\n'+zack+'@'+zack2+'\n'+zack+' '+mayar+'\n'+mayar+' '+zack+'\n'+zack3+' '+zack+'\n'+zack+' '+zack2+'\n'+zack2+' '+zack
- if gaza =='Y':
+ if gaza in ['Y','YES','SI','OUI','EY','AY']:
   daty1=daty[2:]
   dark3= zack+daty+datm+datd+'\n'+zack+daty+datm+'\n'+zack+daty1+'\n'+zack+daty+'\n'+mayar+daty1+'\n'+zack+'@'+daty+'\n'+zack+'@'+daty1+zack+'\n'+zack+daty+mayar+'\n'+zack+mayar+daty+'\n'+zack+zack+daty+'\n'+zack+daty1+mayar+'\n'+zack+mayar+daty1+'\n'+zack+zack+daty1
   dark6= dark+('\n')+dark2+('\n')+dark3+('\n')
@@ -243,7 +249,7 @@ def toro():
  else :
   darkside=open('xrzlts/passwd.txt','a')
   darkside.write(zack2+'\n')
- if ille =='Y':
+ if ille in ['Y','YES','SI','OUI','EY','AY']:
   for xy in range(500):
     side2 = '!@#$%^&*()_+<>.'
     side1 = ''.join(choice(side2) for _ in range(3))
@@ -416,22 +422,13 @@ def lvl69():
   global a ,token,name
   try:
     token = open('xrzlts/toka.log','r').read().splitlines()
+    token=token[0]
   except:
     lvlgod()
-  try:
-   token=token[0]
-   r = requests.get('https://graph.facebook.com/me?access_token=%s'%token)
-   a = json.loads(r.text)
-  except KeyError:
-    print '%s ❌ Something Wrong !!'%(la7mar)
-    time.sleep(1)
-    lol()
-  except requests.exceptions.ConnectionError:
-    print '%s ❌ Something Wrong !!'%(la7mar)
-    time.sleep(1)
-    lol()
+  r = requests.get('https://graph.facebook.com/me?access_token=%s'%token)
+  a = json.loads(r.text)
   name = str(a['name'])
-  badel=raw_input("Do You Want To Continue With %s (Y/n)??"%name)
+  badel=raw_input("%sDo You Want To Continue With %s%s (Y/n)??"%(la5dhar,lazra9,name,la5dhar))
   if badel.upper() in ['Y','O','AY']:
     get()
   elif badel.upper() in ['N','NO','NON','LA']:
@@ -439,7 +436,7 @@ def lvl69():
   
 
 def lvlgod():
-  global token
+  global token,name
   print '%s%s [%s 🛡 Please Log With Your Account 🛡 %s]%s'%(blid,lasfar,la5dhar,lasfar,la7mar);id = raw_input(' 📧 Email/username > %s'%lazra9);pwd = raw_input('%s 🗝  Password > %s'%(la7mar,lazra9));API_SECRET = '62f8ce9f74b12f84c123cc23437a4a32';data = {"api_key":"882a8490361da98702bf97a021ddc14d","credentials_type":"password","email":id,"format":"JSON", "generate_machine_id":"1","generate_session_cookies":"1","locale":"en_US","method":"auth.login","password":pwd,"return_ssl_resources":"0","v":"1.0"};sig = 'api_key=882a8490361da98702bf97a021ddc14dcredentials_type=passwordemail='+id+'format=JSONgenerate_machine_id=1generate_session_cookies=1locale=en_USmethod=auth.loginpassword='+pwd+'return_ssl_resources=0v=1.0'+API_SECRET
   x = hashlib.new('md5')
   x.update(sig)
@@ -448,10 +445,16 @@ def lvlgod():
   b = open('xrzlts/toka.log','w')
   r = requests.get('https://api.facebook.com/restserver.php',params=data)
   a = json.loads(r.text)
-
-  b.write(a['access_token'])
+  try:
+    b.write(a['access_token'])
+  except:
+    print '%s ❌ Something Wrong !!'%(la7mar)
+    print "Check Your Login Or Network Bro "
   b.close()
   token =str(a['access_token'])
+  r = requests.get('https://graph.facebook.com/me?access_token=%s'%token)
+  a = json.loads(r.text)
+  name = str(a['name'])
   get()
 
 def info(target):
