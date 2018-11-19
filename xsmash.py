@@ -45,7 +45,7 @@ def clear():
   else:
     os.system('clear')
 #For update Reason ..plz Dont change it
-update_jogan="version2" 
+update_jogan="versionxfx3" 
 zz=requests.get('https://raw.githubusercontent.com/m4rktn/xsmash/master/xsmash.py')
 if update_jogan != zz['update_jogan']:
   print "Do You Want To Get Update RightNow ?? (Y/n)"
