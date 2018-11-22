@@ -44,7 +44,7 @@ $ python2 xsmash.py
 ----------
 <center> \~> Dont Hack The Normal Ppl ~~ We Need To Hack ScriptKiddies ~~ We Are Not Hackers ..We Are Pentesters <~/
 <br> \~> So Im Not Responsible For Any illegal Activities <~/<br> \~>The Smash (Plus Utlra) =~ Anime "Boku No Hero" (!m a TnAnimeFun) <~/ <br>
-<b> \~> (c)opyright 2018 - W4lk3r </b><br>Greet To : Indonisia's Coders | Walker_Join | You <~/<br>
+<b>            (c)opyright 2018 - W4lk3r </b><br>            Greet To : Indonisia's Coders | Walker_Join | You<br>
 </center>
 
 **last Update**
