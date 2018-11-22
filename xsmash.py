@@ -741,7 +741,7 @@ def bokunohero():
      Coder     {re}: {b}M4rkW4lk3r {y}
      Facebook  {re}: {r}[{b}https://www.facebook.com/officiel.zack{r}] {y}  
      Instagram {re}: {r}[{b}https://www.instagram.com/pip3.py{r}]  {y}
-     E-mail    {re}: {r}[{b} Dream@protonmail.com {r}] {y}
+     E-mail    {re}: {r}[{b} aptget1337@gmail.com {r}] {y}
      Youtube   {re}: {r}[{b}https://youtube.com/c/M4rkWalker Or Mark Walker{r}]{y}
      Site      {re}: {r}[{b}http://m4rkwalker.ga{r}]{y}
      Donating  {re}: {b}I Forget my Btc's Adress Just Contact Me Bro
