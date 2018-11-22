@@ -1,5 +1,4 @@
 # X-Smash FBHackBox
-<script type="text/javascript">alert('Hello Walkers ! \nWelcome To X-Smash-Project ^_^');</script>
 <!--Hello Again ^^!-->
 **What's It ?**
 ----------
@@ -43,10 +42,10 @@ $ python2 xsmash.py
 ```
 **Warning !**
 ----------
-<center><h4> \~> Dont Hack The Normal Ppl ~~ We Need To Hack ScriptKiddies ~~ We Are Not Hackers ..We Are Pentesters <~/
-<br> \~> So Im Not Responsible For Any illegal Activities<br>The Smash (Plus Utlra) =~ Anime "Boku No Hero" (!m a TnAnimeFun) <~/ <br>
+<center> \~> Dont Hack The Normal Ppl ~~ We Need To Hack ScriptKiddies ~~ We Are Not Hackers ..We Are Pentesters <~/
+<br> \~> So Im Not Responsible For Any illegal Activities <~/<br> \~>The Smash (Plus Utlra) =~ Anime "Boku No Hero" (!m a TnAnimeFun) <~/ <br>
 <b> \~> (c)opyright 2018 - W4lk3r </b><br>Greet To : Indonisia's Coders | Walker_Join | You <~/<br>
-</h4></center>
+</center>
 
 **last Update**
 ----------
